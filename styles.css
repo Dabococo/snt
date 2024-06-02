@@ -1,0 +1,276 @@
+/*Welcome !*/
+/*Code pour Jules Ferry*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #E5E5E5;
+  }
+  
+  body {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .canvas-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000000;
+    
+  }
+  
+  #canvas3d {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.3);
+    transform-origin: center;
+  }
+  
+  .e311_735 {
+    background-color: rgba(21, 28, 33, 1);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .e311_736 {
+    background-image: linear-gradient(0deg, rgb(147, 147, 147) 0%, rgb(255, 255, 255) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    width: 100%;
+    height: 318px;
+    position: absolute;
+    left: 0;
+    top: 285px;
+    font-family: 'Krona One', sans-serif;
+    text-align: center;
+    font-size: 81px;
+    letter-spacing: 0;
+    text-shadow: 
+                -1px -1px 0 #000000,  
+                1px -4px 0 #ffffff,
+                -1px 1px 0 #000000,
+                1px 1px 0 #000000;
+}
+
+  .e311_739 { 
+    background-color: rgba(255, 255, 255, 0.06);
+    width: 59px;
+    height: 56px;
+    position: absolute;
+    left: 97px;
+    top: 70px;
+    border-radius: 10px;
+  }
+  
+  .e311_740 {
+    background-color: rgba(255, 255, 255, 0.06);
+    width: 90%;
+    max-width: 1176px;
+    height: auto;
+    padding: 10px;
+    margin: 53px auto;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .e311_740 {
+        width: 95%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .e311_740 {
+        width: 100%;
+        padding: 20px;
+    }
+}
+  
+  .e311_741 { 
+    color: rgba(255, 255, 255, 1);
+    width: 295px;
+    height: 18px;
+    position: absolute;
+    left: 185px;
+    top: 89px;
+    font-family: 'Krona One', sans-serif;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  
+  .e311_742 { 
+    width: 33.49px;
+    height: 29.18px;
+    position: absolute;
+    left: 110px;
+    top: 83px;
+  }
+
+  .appbarre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .e311_743 { 
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .e311_744 { 
+    width: 163px;
+    height: 70px;
+    position: absolute;
+    left: 1145px;
+    top: 48px;
+    background-image: url('images/esa_logo_pillars_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .e311_745 { 
+    width: 534px;
+    height: 674px;
+    position: absolute;
+    left: 824px;
+    top: 1306px;
+    background-image: url('images/image_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .e311_746 { 
+    transform: rotate(0.2deg);
+    width: 1480.01px;
+    height: 0;
+    position: absolute;
+    left: -23px;
+    top: 1274px;
+  }
+  
+  .e311_747 { 
+    width: 656px;
+    height: 0;
+    position: absolute;
+    left: 365px;
+    top: 660px;
+  }
+  
+  .e311_748 { 
+    color: rgba(255, 255, 255, 1);
+    width: 387px;
+    height: 45px;
+    position: absolute;
+    left: 81px;
+    top: 1306px;
+    font-family: 'Krona One', sans-serif;
+    text-align: left;
+    font-size: 36px;
+    letter-spacing: 0;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .glowing-button {
+    z-index: 99;
+    position: absolute;
+    background: #151C21;
+    background: #151C21, linear-gradient(90deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 100%);
+    border: 2px solid #151C21;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(255,255,255,0.1), 0 0 40px rgba(255,255,255,0.1), 0 0 60px rgba(255,255,255,0.1);
+    left: 660px;
+    top: 400px;
+}
+
+.glowing-button::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 100%);
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+.glowing-button:hover {
+    box-shadow: 0 0 30px rgba(255,255,255,0.3), 0 0 60px rgba(255,255,255,0.3), 0 0 90px rgba(255,255,255,0.3);
+}
+
+.glowing-button:hover::after {
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+}
+
+.blur {
+    filter: blur(4px);
+}
+
+.news-container {
+    position: absolute;
+    z-index: 100;
+    background-color: #151C21;
+    width: 60%;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.text-content {
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    width: 80%;
+}
+
+.image-content {
+    text-decoration: #ffffff;
+    width: 6%;
+    overflow: hidden;
+}
+
+.image-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
